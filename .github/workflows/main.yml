@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-  workflow-dispatch:
 jobs:
   MyFirstJob:
     runs-on: ubtuntu-latest
