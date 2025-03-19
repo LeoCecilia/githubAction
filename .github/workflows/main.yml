@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   MyFirstJob:
-    runs-on: ubtuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hello world."
 
